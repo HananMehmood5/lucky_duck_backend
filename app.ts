@@ -26,7 +26,6 @@ app.use(cors());
 // Routes
 app.get('/seed', async (req, res) => {
   try {
-    debugLog("hello");
     const pools = await Pools.addSeedData(poolsData);
     res.json({pools: pools});
   } catch (error) {
@@ -36,7 +35,6 @@ app.get('/seed', async (req, res) => {
 
 app.get('/pools', async (req, res) => {
   try {
-    debugLog("hello");
     const pools = await Pools.getPools();
     res.json(pools);
   } catch (error) {
@@ -46,11 +44,9 @@ app.get('/pools', async (req, res) => {
 
 app.post('/pools', async (req, res) => {
   try {
-    debugLog("bodyData", req.body);
     const pool = await Pools.addPool(req.body);
     res.status(201).json(pool);
   } catch (error) {
-    debugLog("Error", error)
     res.status(500).json({ error: 'Internal server error' });
   }
 });

@@ -39,7 +39,6 @@ class Pools {
   }
 
   async getPools(limit = 25, page = 0) {
-    log('Getting pools');
     return this.Pool.find().limit(limit).skip(limit * page).exec();
   }
 

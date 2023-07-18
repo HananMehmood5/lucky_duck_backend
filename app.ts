@@ -3,8 +3,8 @@ import debug from "debug";
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import Pools from "./modals/pools";
-import { poolsData } from "./mocks/pools"
+import Pools from "./src/modals/pools";
+import { poolsData } from "./src/mocks/pools"
 
 const debugLog = debug('app');
 

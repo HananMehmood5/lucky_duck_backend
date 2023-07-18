@@ -17,6 +17,7 @@ class Pools {
     title: String,
     description: String,
     ticketValue: Number,
+    valuePools:  Number,
     drawDate: String,
     status: Number,
     img: String,

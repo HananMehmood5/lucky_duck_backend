@@ -49,6 +49,106 @@ const poolsData = [
     img: "/assets/image/cards/image5.svg",
     participators: [],
   },
+  {
+    title: "SamSung",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 432000,
+    drawDate: "Jun 25 2023",
+    status: 0,
+    img: "/assets/image/cards/image6.svg",
+    participators: [],
+  },
+  {
+    title: "Mercedes Benz",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 980000,
+    drawDate: "Dec 25 2021",
+    status: 0,
+    img: "/assets/image/cards/image7.svg",
+    participators: [],
+  },
+  {
+    title: "Apple 342",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 217000,
+    drawDate: "Jan 25 2023",
+    status: 0,
+    img: "/assets/image/cards/image8.svg",
+    participators: [],
+  },
+  {
+    title: "Apple 43",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 654000,
+    drawDate: "Aug 25 2023",
+    status: 1,
+    img: "/assets/image/cards/image9.svg",
+    participators: [],
+  },
+  {
+    title: "Lexus",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 103000,
+    drawDate: "Sep 25 2022",
+    status: 0,
+    img: "/assets/image/cards/image10.svg",
+    participators: [],
+  },
+  {
+    title: "Racing Car",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 189000,
+    drawDate: "Jan 25 2023",
+    status: 2,
+    img: "/assets/image/cards/image11.svg",
+    participators: [],
+  },
+  {
+    title: "Ford",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 980000,
+    drawDate: "Feb 25 2023",
+    status: 0,
+    img: "/assets/image/cards/image12.svg",
+    participators: [],
+  },
+  {
+    title: "Knight Rider",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 205000,
+    drawDate: "Dec 25 2023",
+    status: 0,
+    img: "/assets/image/cards/image13.svg",
+    participators: [],
+  },
+  {
+    title: "Magnum",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 340000,
+    drawDate: "Oct 25 2023",
+    status: 1,
+    img: "/assets/image/cards/image14.svg",
+    participators: [],
+  },
+  {
+    title: "Miami",
+    description:
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+    ticketValue: 302000,
+    drawDate: "Jan 25 2023",
+    status: 0,
+    img: "/assets/image/cards/image15.svg",
+    participators: [],
+  },
 ];
 
 export { poolsData };
